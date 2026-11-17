@@ -20,6 +20,12 @@ A full-stack application that shows how AI can be used to schedule dental appoin
 
 ## Getting Started & Demo
 
+### Get the Code
+```bash
+git clone https://github.com/afiaahmedAI/Smart-Dental-Appointment-Chatbot.git
+cd Smart-Dental-Appointment-Chatbot
+```
+
 ### Prerequisites
 - Node.js 18+
 - Python 3.9+
@@ -116,7 +122,7 @@ FLASK_PORT=5001
 ## Folder Layout
 
 ```
-Assessment/
+Smart-Dental-Appointment-Chatbot/
 ├── backend/                 # Node.js/Express API
 │   ├── src/
 │   │   ├── controllers/     # API controllers
@@ -125,13 +131,13 @@ Assessment/
 │   │   ├── routes/         # API routes
 │   │   └── utils/          # Helper functions
 │   ├── package.json
-│   └── .env.example
+│   └── env.example
 ├── python-service/         # LangChain microservice
 │   ├── app.py             # Main Flask application
 │   ├── chatbot/           # Chatbot logic
 │   ├── utils/              # Database utilities
 │   ├── requirements.txt
-│   └── .env.example
+│   └── env.example
 ├── simple-frontend/        # Simple HTML frontend
 │   └── index.html          # Chat interface
 ├── database/               # Database schema and migrations
